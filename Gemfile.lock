@@ -103,6 +103,8 @@ GEM
     erubi (1.12.0)
     execjs (2.8.1)
     ffi (1.15.5)
+    figaro (1.2.0)
+      thor (>= 0.14.0, < 2)
     globalid (1.1.0)
       activesupport (>= 5.0)
     i18n (1.13.0)
@@ -249,10 +251,12 @@ DEPENDENCIES
   capybara
   debug
   devise (~> 4.9)
+  figaro
   importmap-rails
   jbuilder
   jquery-rails (~> 4.5)
   pg (~> 1.1)
+  popper_js (~> 2.11)
   puma (~> 5.0)
   rails (~> 7.0.4, >= 7.0.4.3)
   sassc-rails
